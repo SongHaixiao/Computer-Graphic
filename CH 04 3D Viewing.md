@@ -402,18 +402,18 @@ system coincides with the camera
 
   - viewing specification
 
-    > VRC(WC) (16,0,54)
+    >VRC(WC) (16,0,54)
     >
-    > VPN(WC) (1,0,1)
+    >VPN(WC) (1,0,1)
     >
-    > VUP(WC) (0,1,0)
+    >VUP(WC) (0,1,0)
     >
-    > PRP(VRC) (0, 25, 20$\sqrt{2}$)
+    >PRP(VRC) (0, 25, 20$\sqrt{2}$)
     >
-    > Window(VRC) (-20, 20, -5, 35)
-    >
-    > perspective projection
-
+    >Window(VRC) (-20, 20, -5, 35
+  
+  perspective projection
+  
     <img src="Resources1/80.png" style="zoom:60%;" />
 
   - view plane change
@@ -451,11 +451,11 @@ system coincides with the camera
 
 <img src="Resources1/86.png" style="zoom:70%;" />
 
-	> - 물체에 대한 이동, 크기조절, 반사변환으로 간주
-	>
-	> - Reflection: 정규화 가시부피는 왼손좌표계
-	>
-	> - 결과적인 좌표계 = 절단 좌표계(CCS: Clip Coordinate System)
+> - 물체에 대한 이동, 크기조절, 반사변환으로 간주
+>
+> - Reflection: 정규화 가시부피는 왼손좌표계
+>
+> - 결과적인 좌표계 = 절단 좌표계(CCS: Clip Coordinate System)
 
 - Perspective Projection
 

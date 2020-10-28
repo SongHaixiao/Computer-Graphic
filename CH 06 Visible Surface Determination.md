@@ -97,14 +97,19 @@
     - an edge may change its visibility not frequently
     - = an edge may change its visibility where it crosses behind a visible edge or penetrates a visible face
   - **implied edge coherence**:
+    
     - If one planar face penetrates another, their lines of intersection (implied edge) can be determined from two intersection points
   - **scan-line coherence**:
+    
     - little change in visible spans from one scanline to another
   - **area coherence**:
+    
     - a group of pixels is often covered by the same visible surface
   - **depth coherence**:
+    
     - adjacent parts of the same surface are typically close in depth
   - **frame coherence**:
+    
     - animation frames contain small changes from the previous frame
 
 ## The perspective Transformation
@@ -471,7 +476,7 @@ for Each Polygon {
     - Until the size of a single pixel
 
 - Example
-  - With a resolution 1024  1024
+  - With a resolution $1024\times  1024$
   - 10 times before reduced to a point
 
 <img src="Resources1/155.png" style="zoom:100%;" />
@@ -481,14 +486,13 @@ for Each Polygon {
 - Four possible relationships
   - Surrounding surface
     - Completely enclose the area
-
-- Overlapping surface
-  - Partly inside and partly outside the area
-
-- Inside surface
-
-- Outside surface
-
+  
+  - Overlapping surface
+    - Partly inside and partly outside the area
+  - Inside surface
+  
+  - Outside surface
+  
 - **No further subdivisions** are needed if one of the following 
 
   conditions is true

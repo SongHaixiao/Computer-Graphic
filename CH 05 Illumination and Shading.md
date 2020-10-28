@@ -68,10 +68,6 @@ $I = K_AI_{AL}+K_D(N \cdot L)I_L+K_s(V \cdot R)^nI_L$
 >I = K_\alpha I_\alpha
 >$$
 >
->$$
-><Empty \space Math \space Block>
->$$
->
 >- $I_\alpha$ : the incident ambient intensity
 >
 >- $K_a$ : ambient reflection coefficient, the proportion reflected away from surface
@@ -134,7 +130,7 @@ $I = K_AI_{AL}+K_D(N \cdot L)I_L+K_s(V \cdot R)^nI_L$
 
 ### Constant Shading(Flat Shading)
 
-- infinitely distant light source (constant N  L) result in constant
+- infinitely distant light source (constant $N\cdot  L$) result in constant
   diffuse reflection
 - constant $N \cdot L$ and infinitely distant viewpoint (constant $N \cdot L$) result in constant specular reflection
 - abrupt change in surface orientation of adjacent surfaces produce an unrealistic effect
